@@ -5,3 +5,107 @@ p {
 h1 {
     background-color: grey;
 }
+
+.heading {
+    color: purple;
+}
+
+.back-grey {
+    background-color: grey;
+}
+
+.block {
+    width: 90%;
+    height: 300px;
+    border: 1px solid #000;
+    background-color: grey;
+    background-image: url(https://images.theconversation.com/files/350865/original/file-20200803-24-50u91u.jpg?ixlib=rb-1.1.0&rect=37%2C29%2C4955%2C3293&q=45&auto=format&w=926&fit=clip);
+    background-size: cover;
+    background-position: center;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.heading1 {
+    text-align: center;
+}
+
+.text {
+    color: blue;
+}
+
+.list {
+    list-style-type: square;
+}
+
+.header {
+    /* color: grey; */
+    background-color: grey;
+}
+
+.text-red {
+    color: red;
+}
+
+.footer {
+    background-color: #ccc;
+}
+
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+.block1 {
+    border: 1px solid #000;
+    width: 350px;
+    height: 250px;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding: 16px;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+    float: left;
+}
+
+.headingo {
+    margin-top: 50px;
+    clear: both;
+}
+
+.buttonText {
+
+    overflow: hidden;
+}
+
+.menu_list {
+    list-style-type: none;
+    border: 1px solid #000;
+    width: 200px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.menu_link:hover {
+    color: blue;
+}
+
+.menu_link:active {
+    color: green;
+}
+
+.menu_list:first-child {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.menu_list:last-child {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.menu_list:hover .menu_link {
+    text-decoration: none;
+}

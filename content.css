@@ -1,0 +1,38 @@
+.menu_li:hover::before {
+    content: ' << ';
+    color: orange;
+}
+
+.menu {
+    list-style-type: none;
+}
+
+/* .menu_liNew::after {
+    content: ' Super line';
+    color: red;
+  } */
+.menu_li:nth-child(4)::after {
+    content: ' Low position';
+    color: grey;
+}
+
+.product {
+    width: 250px;
+    border: 1px solid #000;
+}
+
+.product_img {
+    height: 150px;
+    background-color: forestgreen;
+}
+
+.product_new::after {
+    content: " new";
+    color: red;
+    text-transform: uppercase;
+}
+
+.text::first-letter {
+    color: green;
+    font-size: 24px;
+}
